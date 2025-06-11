@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | ART Photography</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+   
+</head>
+<body>
+ <div id="main">
+  <header>
+    <nav>
+      <h2>The ART Photography</h2>
+      <div id="nav-2">
+        <h4><a href="index.html#page1">Home</a></h4>
+        <h4><a href="index.html#page2">About</a></h4>
+        <h4><a href="gallery.html">Gallery</a></h4>
+        <h4><a href="index.html#page4">Contact</a></h4>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="gallery-section">
+      <div class="container">
+        <h2>Our Portfolio</h2>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="wedding">Wedding</button>
+          <button class="filter-btn" data-filter="nature">Nature</button>
+          <button class="filter-btn" data-filter="baby">Baby Shoot</button>
+        </div>
+
+        <!-- Gallery Images -->
+        <div class="gallery-grid">
+          <!-- Wedding -->
+          <img src="./1.jpg" alt="Wedding" class="gallery-image wedding">
+          <img src="./2.jpeg" alt="Wedding 2" class="gallery-image wedding">
+          
+          <!-- Nature -->
+          <img src="./3.jpg" alt="Nature" class="gallery-image nature">
+          <img src="https://images.pexels.com/photos/789303/pexels-photo-789303.jpeg" alt="Nature 2" class="gallery-image nature">
+
+          <!-- Baby -->
+          <img src="https://images.pexels.com/photos/3770584/pexels-photo-3770584.jpeg" alt="Baby 1" class="gallery-image baby">
+          <img src="https://images.pexels.com/photos/3573382/pexels-photo-3573382.jpeg" alt="Baby 2" class="gallery-image baby">
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>

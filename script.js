@@ -105,7 +105,7 @@ menu.addEventListener("click",function(){
   head.style.opacity = 0 
   flag = 1
   }else{
-    full.style.top = "-100%"
+    full.style.top = "-200%"
     head.style.opacity = 1 
     flag = 0
   }
